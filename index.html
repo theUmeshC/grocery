@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Project</title>
+    <link rel="stylesheet" href="groceryProject.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="heading">Grocery Project</h1>
+    <div class="grocery">
+      <form id="grocery-item-form" class="grocery__list">
+        <h2 class="grocery__listTitle">Grocery List</h2>
+        <h3 id="grocery-mode-title" class="grocery__subtitle">
+          Add Grocery Item
+        </h3>
+        <input
+          type="text"
+          placeholder="Name"
+          id="grocery-item-name"
+          class="grocery__itemInput"
+        />
+        <input
+          type="text"
+          id="grocery-item-description"
+          placeholder="Description"
+          class="grocery__itemInput"
+        />
+        <div>
+          <input
+            id="add-item-btn"
+            class="button"
+            type="submit"
+            value="Add Item"
+            class="btn"
+          />
+        </div>
+      </form>
+      <div class="grocery__items">
+        <h2 class="grocery__itemTitle">Grocery Items</h2>
+        <input
+          type="text"
+          id="filter";
+          placeholder="Filter items by Name"
+          class="grocery__itemInput"
+        />
+        <ul class="item-list collection"></ul>
+        <input
+          type="button"
+          id="clear-list-btn"
+          class="clear-list button"
+          value="Clear List"
+        />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

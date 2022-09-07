@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.grocery{
+    border: solid ;
+    width: 220px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.heading{
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    font-weight: 800;
+}
+.grocery__listTitle{
+    font-size: 12px;  
+    margin: 2px; 
+    border-bottom: 1px solid black; 
+}
+.grocery__list{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto;     */
+}
+.grocery__subtitle{
+    font-size: 10px;
+    margin: 2px;
+}
+.grocery__itemInput{
+    width: 80%;
+    margin: auto;
+    height: 12px;
+    margin-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid blue;
+}
+.grocery__itemInput::placeholder{
+    font-size: 8px;
+}
+.button{
+    width: 70px;
+    font-size: 9px;
+    display: block;
+    margin: auto;
+}
+.grocery__items{
+    display: flex;flex-direction: column;
+}
+.grocery__itemTitle{
+    font-size: 12px;  
+    margin: 2px; 
+    border-bottom: 1px solid black;
+}
+.button-container{
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+}
+.delete-item {
+    color: red;
+}
+.edit-item {
+    color:blue;
+}
+.item-description{
+font-size: 9px;
+margin: 0px;
+}
+.item-name{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    position: relative;
+    left: -20px;
+}
+ul li{
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 1px 1px 1px 1px grey;
+margin: 5px 0px;
+padding: 5px;
+}
